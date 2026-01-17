@@ -1,0 +1,345 @@
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+
+        body {
+            background: #f5f5f5;
+            padding-top: 100px;
+            
+        }
+
+        /* ================= DESKTOP NAVBAR ================= */
+        .main-navbar {
+            background: #17151a;
+            padding: 15px 25px;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            position: fixed;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo img {
+            height: 70px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 35px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+.nav-links a:hover{
+    color: red;
+    transition: 0.9s;
+}
+        .nav-btn a {
+            background: #ff6b5a;
+            color: #fff;
+            padding: 14px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* ================= MOBILE ICON ================= */
+        .menu-icon {
+            display: none;
+            font-size: 32px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        /* ================= MOBILE MENU ================= */
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            height: 100vh;
+            background: #2c2440;
+            transition: 0.4s ease;
+            z-index: 2000;
+            padding: 30px;
+        }
+
+        .mobile-menu.active {
+            right: 0;
+        }
+
+        .mobile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .close-btn {
+            font-size: 40px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .mobile-links {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .mobile-links a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 14px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .mobile-btn {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+        }
+
+        .mobile-btn a {
+            display: block;
+            text-align: center;
+            background: #ff6b5a;
+            color: #fff;
+            padding: 16px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        /* containt........................ */
+        .img1 {
+            height: 90%;
+            max-height: 80vh;
+            object-fit: cover;
+        }
+
+        .hero-row {
+            min-height: 60vh;
+            background-image: url("../img/cartoon-character-man-women-boy-girl-cartoon-character-boy-running-race-track-165015711.webp");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 90%;
+
+        }
+        .review-card{
+            border:2px solid #6c63ff;
+            padding:30px;
+            height:100%;
+            background:transparent;
+        }
+
+        .review-text{
+            text-align:center;
+            line-height:1.7;
+        }
+
+        .review-name{
+            margin-top:25px;
+            text-align:center;
+            font-weight:700;
+            color:#1c1c5a;
+        }
+
+        .review-place{
+            text-align:center;
+            font-size:14px;
+        }
+
+        /* Swiper Fix */
+        .mySwiper{
+            padding-bottom:60px;
+        }
+
+        .swiper-pagination{
+            bottom:0 !important;
+        }
+
+        .swiper-pagination-bullet{
+            background:#000;
+        }
+
+.sapper{
+background-color: rgb(37, 64, 164);
+padding: 30px;
+text-align: center;
+color: white;
+ 
+}
+
+
+/* quick search.......................... */
+ .search{
+        text-align: center;
+    }
+.blog-card{
+    position: relative;
+    height: 270px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+  background-image: url("../img/search3.jpg");
+}
+.blog-card:hover{
+    transform: scale(1.03);
+}
+
+/* Purple Overlay */
+.blog-card .overlay{
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(151, 89, 245, 0.6),
+        rgba(0, 0, 0, 0.9)
+    );
+}
+
+/* Category Tag */
+.blog-card .tag{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #7c4dff;
+    color: #fff;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+/* Text Content */
+.blog-card .card-content{
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    right: 25px;
+    color: #fff;
+    z-index: 2;
+}
+
+.blog-card small{
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.blog-card h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+
+/* footer............................... */
+.footer{
+    min-height: 40vh;
+    background-color: rgb(37, 35, 35);
+
+}
+.footer h6{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer ul a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    
+}
+.footer ul a:hover{
+ color: rgb(255, 255, 255);
+    transition: 0.9s;
+}
+.social-icons{
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a{
+    width: 42px;
+    height: 42px;
+    background: #17151a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+/* Hover colors */
+.social-icons a:hover{
+    transform: translateY(-4px);
+    
+}
+
+.social-icons a:nth-child(1):hover{ background:#E1306C; } /* Instagram */
+.social-icons a:nth-child(2):hover{ background:#1877F2; } /* Facebook */
+.social-icons a:nth-child(3):hover{ background:#25D366; } /* WhatsApp */
+.social-icons a:nth-child(4):hover{ background:#FF0000; } /* YouTube */
+
+        /* ================= RESPONSIVE ================= */
+        @media(max-width:992px) {
+
+            .nav-links,
+            .nav-btn {
+                display: none;
+            }
+
+            .menu-icon {
+                display: block;
+            }
+
+            .img1 {
+                position: relative;
+                width: 100%;
+                height: auto;
+            }
+             body {
+            background: #f5f5f5;
+            padding-top: 100px;
+            
+        }
+        .footer ul li a{
+            font-size: 13px
+        }
+
+        .ttt img{
+         
+            margin-left: 60px
+        }
+            ;
+        }

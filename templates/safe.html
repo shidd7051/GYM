@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <title>Anytime Fitness Navbar</title>
+
+  <!-- FIXED CSS -->
+  <link rel="stylesheet" href="../css/safe.css">
+</head>
+
+<body>
+
+  <!-- DESKTOP NAVBAR -->
+  <header class="main-navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="../img/WhatsApp_Image_2025-12-18_at_18.26.00_e2b33927-removebg-preview.png">
+        </a>
+      </div>
+
+      <nav class="nav-links">
+        <a href="map.html">Find a Gym</a>
+        <a href="why.html">Why Join</a>
+        <a href="training.html">Training</a>
+        <a href="safe.html">AF Safe</a>
+        <a href="login.html">Sign In</a>
+      </nav>
+
+      <div class="nav-btn">
+        <a href="register.html">Try Us For Free</a>
+      </div>
+
+      <div class="menu-icon" onclick="openMenu()">☰</div>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-header">
+      <img src="../img/WhatsApp_Image_2025-12-18_at_18.26.00_e2b33927-removebg-preview.png" height="100">
+      <div class="close-btn" onclick="closeMenu()">✕</div>
+    </div>
+
+    <div class="mobile-links">
+      <a href="map.html">Find a Gym</a>
+      <a href="why.html">Why Join</a>
+      <a href="training.html">Training</a>
+      <a href="safe.html">AF Safe</a>
+      <a href="login.html">Sign In</a>
+    </div>
+
+    <div class="mobile-btn">
+      <a href="register.html">Try Us For Free</a>
+    </div>
+  </div>
+
+  <div class="safe">
+    <h1 class="p-4">WE'RE READY TO KEEP YOU AFSAFE </h1>
+    <img width="400x" src="../img/sft.png" class="p-2">
+    <h3>WE DECIDED TO OPEN RESPONSIBLY !</h3>
+    <p>See all details regarding re-opening, schedules and FAQ below.</p>
+  </div>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12 mt-5">
+        <h2 style="color: rgb(92, 90, 225);">==> ENHANCE SAFETY MEASURES</h2>
+        <h2>CLEANING ENSURED</h2>
+        <h2>SANITIZING STATIONS</h2>
+        <h2>SOCIAL DISTANCING</h2>
+        <h2>AC & VENTILATION</h2>
+        <h2>CROWD MANAGEMENT</h2>
+      </div>
+      <div class="col-lg-6 col-sm-12">
+        <iframe title="vimeo-player"
+          src="https://player.vimeo.com/video/440222272?h=b635b3f2f4"
+          width="640" height="360" frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-3">
+    <div class="row my-1 pb-5">
+      <div class="col-lg-6 col-sm-12 order-lg-1 order-2">
+        <h1>CLEANLINESS ENSURED</h1>
+        <p>
+          The Cleaning Protocols have been established to keep the members, guests and staff safe.
+          Professional Cleaners are hired to maintain such cleaning standards.
+        </p>
+      </div>
+      <div class="col-lg-6 col-sm-12 order-lg-2 order-1">
+        <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="1700">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/sl1.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/sl2.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/sl3.jpg" class="d-block w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5 pb-5">
+      <div class="col-lg-6 col-sm-12">
+        <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="1700">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/sl4.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/sl5.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/sl6.jpg" class="d-block w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12">
+        <h1>SANITIZING STATION</h1>
+        <p>
+          The number of Hygiene Stations have been increased on the floor.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <h3 class="fqq">RE-OPENING FAQ</h3>
+
+  <div class="faq-container">
+    <div class="faq">
+      <div class="faq-question">Are gyms safe? <span class="arrow">▶</span></div>
+      <div class="faq-answer">We follow strict sanitization.</div>
+    </div>
+    <div class="faq">
+      <div class="faq-question">Will temperature be checked? <span class="arrow">▶</span></div>
+      <div class="faq-answer">Yes, temperature checks are mandatory.</div>
+    </div>
+  </div>
+
+  <div class="container-fluid footer">
+    <div class="row p-4">
+
+      <div class="col-lg-4 p-3">
+        <ul>
+          <h6>COMPANY</h6>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="policy.html">Privacy policy</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 p-3">
+        <ul>
+          <h6>GYM</h6>
+          <li><a href="map.html">Find a Gym</a></li>
+          <li><a href="index.html">Own a Gym</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 p-3">
+        <ul>
+          <h6>MEMBER</h6>
+          <li><a href="FQ.html">FAQs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://www.instagram.com/its_shiddarth_sharma"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://wa.me/qr/LAXKPU7KIVC5M1"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://youtube.com/@funntwo4"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FIXED JS -->
+  <script src="../js/safe.js"></script>
+
+</body>
+</html>

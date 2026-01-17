@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- FIXED CSS PATH -->
+    <link rel="stylesheet" href="../css/index.css">
+
+    <title>Anytime Fitness Navbar</title>
+</head>
+
+<body>
+
+    <!-- DESKTOP NAVBAR -->
+    <header class="main-navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../img/WhatsApp_Image_2025-12-18_at_18.26.00_e2b33927-removebg-preview.png">
+                </a>
+            </div>
+
+            <nav class="nav-links">
+                <a href="map.html">Find a Gym</a>
+                <a href="why.html">Why Join</a>
+                <a href="training.html">Training</a>
+                <a href="safe.html">AF Safe</a>
+                <a href="login.html">Sign In</a>
+            </nav>
+
+            <div class="nav-btn">
+                <a href="register.html">Try Us For Free</a>
+            </div>
+
+            <div class="menu-icon" onclick="openMenu()">☰</div>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-header">
+            <img src="../img/WhatsApp_Image_2025-12-18_at_18.26.00_e2b33927-removebg-preview.png" height="100">
+            <div class="close-btn" onclick="closeMenu()">✕</div>
+        </div>
+
+        <div class="mobile-links">
+            <a href="map.html">Find a Gym</a>
+            <a href="why.html">Why Join</a>
+            <a href="training.html">Training</a>
+            <a href="safe.html">AF Safe</a>
+            <a href="login.html">Sign In</a>
+        </div>
+
+        <div class="mobile-btn">
+            <a href="register.html">Try Us For Free</a>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0">
+        <img src="../img/image_91444b05-00d1-4491-9b2f-c0d1544c6758.jpg"
+            class="img-fluid w-100 d-block">
+    </div>
+
+    <div class="container-fluid p-0 my-3">
+        <div class="row g-0 bg-primary p-3">
+            <div class="col-12 col-lg-5">
+                <iframe width="100%" height="300"
+                    src="https://www.youtube.com/embed/BMUOdSHumMY"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-lg-7 p-5">
+                <center>
+                    <h1 style="font-size: 40px;">It's ‘Time’ to ‘Be Fit’</h1>
+                    <h5>
+                        When it comes to fitness – we don’t wait for time, we make it happen!
+                        This new season is here to remind you that fitness has no clock-in, clock-out.
+                    </h5>
+                    <br>
+                    <button type="button" class="btn btn-info">More</button>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-0 my-5">
+        <div class="row g-0 p-3">
+            <div class="col-12 col-lg-7 p-3">
+                <h1>GYM'S VIRTUAL TOUR AT A GLANCE</h1>
+                <p>
+                    Join us on a Virtual Tour around Anytime Fitness. At AF, you can take your safe,
+                    personal virtual tour of our Club from the comfort of your home.
+                </p>
+            </div>
+            <div class="col-12 col-lg-5">
+                <iframe width="100%" height="300"
+                    src="https://www.youtube.com/embed/Uf5wSJ_EiBY"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0 my-5">
+        <div class="row p-5">
+            <div class="col-12 col-lg-7 text-blue text-bold">
+                <h1 style="text-align:center; text-decoration:underline;">Online Service</h1>
+
+                <h2>✅ Fitness Apps</h2>
+                Gym apps <br> Home workout apps <br> Personal trainer apps
+
+                <h2>✅ Health Apps</h2>
+                Diet tracking <br> Water reminder <br> Sleep tracking
+
+                <h2>✅ Habit Tracker Apps</h2>
+                Daily routine <br> Study tracker <br> Productivity apps
+
+                <h2>✅ Corporate / Employee Wellness Apps</h2>
+                Office fitness challenges <br> Health programs
+            </div>
+
+            <div class="col-12 col-lg-5 ttt">
+                <img src="../img/pone.webp" class="img-fluid w-50 pt-3">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid sapper">
+        <div class="row">
+            <section class="members-section">
+                <div class="container">
+                    <h2 class="members-title">MEMBER'S CORNER</h2>
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <p class="review-text">
+                                        Advance level machines are available in this gym. Staff and trainers.
+                                    </p>
+                                    <h4 class="review-name">GAURAV GOEL</h4>
+                                    <p class="review-place">MEMBER – DWARKA, DELHI</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <p class="review-text">
+                                        Great place for fitness freaks. Trainers have real passion.
+                                    </p>
+                                    <h4 class="review-name">PAWAN KOTHARI</h4>
+                                    <p class="review-place">MODEL TOWN, DELHI</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <p class="review-text">
+                                        Trainers guide very well, ambience is motivating.
+                                    </p>
+                                    <h4 class="review-name">SNEHA BHATI</h4>
+                                    <p class="review-place">GHAZIABAD, UP</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="review-card">
+                                    <p class="review-text">
+                                        Clean gym, modern equipment and friendly staff.
+                                    </p>
+                                    <h4 class="review-name">ROHIT SHARMA</h4>
+                                    <p class="review-place">NOIDA</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="row p-4">
+
+            <div class="col-lg-4 p-3">
+                <ul>
+                    <h6>COMPANY</h6>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="policy.html">Privacy policy</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 p-3">
+                <ul>
+                    <h6>GYM</h6>
+                    <li><a href="map.html">Find a Gym</a></li>
+                    <li><a href="login.html">Own a Gym</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 p-3">
+                <ul>
+                    <h6>MEMBER</h6>
+                    <li><a href="FQ.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/its_shiddarth_sharma"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://wa.me/qr/LAXKPU7KIVC5M1"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://youtube.com/@funntwo4"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FIXED JS PATH -->
+    <script src="../js/index.js"></script>
+</body>
+</html>
